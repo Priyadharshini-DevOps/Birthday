@@ -13,6 +13,7 @@ A simple full-stack birthday greeting app with a Node.js backend, a frontend UI,
 ## Features
 
 - Fetches a birthday wish from a MySQL database
+- Falls back to a default birthday greeting if the database is unreachable
 - Serves the data through a REST API
 - Includes a basic frontend page to display the message
 - Deploys infrastructure with Terraform
@@ -46,6 +47,10 @@ A simple full-stack birthday greeting app with a Node.js backend, a frontend UI,
 4. Start the backend:
    ```bash
    npm start
+   ```
+5. Run the backend test suite:
+   ```bash
+   npm test
    ```
 
 The API will be available at:
