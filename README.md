@@ -84,4 +84,4 @@ The repository includes Dockerfiles for both backend and frontend, which can be 
 ## Notes
 
 - Terraform provider downloads and local state files are ignored by Git to avoid pushing large artifacts.
-- The GitHub Actions workflow in `.github/workflows/terraform.yaml` automates Terraform deployment when changes are pushed under the terraform directory.   
+- The GitHub Actions workflow in `.github/workflows/terraform.yaml` automates Terraform deployment when changes are pushed under the terraform directory.
